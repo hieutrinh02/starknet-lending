@@ -40,7 +40,7 @@ The focus of this project is smart contract correctness and security.
 
 The protocol is designed and tested against the following core invariants:
 
-- Pool solvency: Total supplied liquidity plus accrued interest must always be greater than or equal to 90% of total borrowed amount.
+- Pool solvency: Total borrowed amount must always be smaller than or equal to 90% of total supplied liquidity plus accrued interest.
 - Collateralization ratio: When a user borrows, the value of their collateral must be at least 150% of the borrowed value, based on oracle prices.
 - Borrow positions: A borrow position must be fully repaid or liquidated to be closed.
 - Collateral safety: Under-collateralized positions must be liquidatable.
