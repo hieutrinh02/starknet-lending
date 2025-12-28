@@ -46,8 +46,18 @@ The protocol is designed and tested against the following core invariants:
 - Collateral safety: Under-collateralized positions must be liquidatable.
 
 
-## 🧪 Testing
+## 🛠 Installation & Testing
 
+Prerequisites
+- Scarb 2.14.0
+- Starknet Foundry 0.53.0
+
+Clone the repo and from within the project's root folder run:
+
+```bash
+snforge test
+```
+  
 The codebase is extensively tested using:
 - Unit & integration tests for individual functions
 - Representative fuzz tests
