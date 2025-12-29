@@ -45,6 +45,13 @@ The protocol is designed and tested against the following core invariants:
 - Borrow positions: A borrow position must be fully repaid or liquidated to be closed.
 - Collateral safety: Under-collateralized positions must be liquidatable.
 
+## 🧰 Tech Stack
+
+- Blockchain: Starknet
+- Smart contract language: Cairo
+- Testing & fuzzing: Starknet Foundry (snforge)
+- Package manager: Scarb
+- Oracle: Chainlink Price Feeds
 
 ## 🛠 Installation & Testing
 
