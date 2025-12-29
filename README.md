@@ -49,8 +49,8 @@ The protocol is designed and tested against the following core invariants:
 
 - Blockchain: Starknet
 - Smart contract language: Cairo
-- Testing & fuzzing: Starknet Foundry (snforge)
 - Package manager: Scarb
+- Testing & fuzzing: Starknet Foundry (snforge)
 - Oracle: Chainlink Price Feeds
 
 ## 🛠 Installation & Testing
