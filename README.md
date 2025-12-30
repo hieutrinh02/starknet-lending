@@ -1,12 +1,13 @@
 <h1 align="center">Starknet Lending</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green" />
+  <a href="https://github.com/hieutrinh02/starknet-lending/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green" />
+  </a>
   <img src="https://img.shields.io/badge/status-educational-blue" />
   <img src="https://img.shields.io/badge/version-v0.1.0-blue" />
   <img src="https://img.shields.io/badge/Starknet-Cairo-red" />
 </p>
-
 
 ## ✨ Overview
 
@@ -56,6 +57,7 @@ The protocol is designed and tested against the following core invariants:
 ## 🛠 Installation & Testing
 
 Prerequisites
+
 - [Scarb](https://docs.swmansion.com/scarb/) 2.14.0
 - [Starknet Foundry](https://foundry-rs.github.io/starknet-foundry/) 0.53.0
 
@@ -64,12 +66,14 @@ Clone the repo and from within the project's root folder run:
 ```bash
 snforge test
 ```
-  
+
 The codebase is extensively tested using:
+
 - Unit & integration tests for individual functions
 - Representative fuzz tests
 
 ### Test Coverage
+
 <p align="center">
   <img src="assets/coverage.png" alt="Test Coverage" width="800">
 </p>
@@ -82,4 +86,3 @@ and is provided without any warranties or guarantees.
 ## 📜 License
 
 This project is licensed under the MIT License.
-
