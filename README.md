@@ -56,8 +56,8 @@ The protocol is designed and tested against the following core invariants:
 ## 🛠 Installation & Testing
 
 Prerequisites
-- Scarb 2.14.0
-- Starknet Foundry 0.53.0
+- [Scarb](https://docs.swmansion.com/scarb/) 2.14.0
+- [Starknet Foundry](https://foundry-rs.github.io/starknet-foundry/) 0.53.0
 
 Clone the repo and from within the project's root folder run:
 
